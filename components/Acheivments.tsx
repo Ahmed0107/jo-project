@@ -7,7 +7,7 @@ export default function Acheivments() {
       id="our_works"
     >
       <div className="w-[65%]">
-        <h1 className="text-amber-500">dihgduhg</h1>
+        <h1 className="text-amber-500">أعمالنا</h1>
         <p className="mt-5 text-white">
           تييتبايتايتاىستياتس تيالياهل اهثايلثها هاقلمستل جحسينب سثبن بةيكبتصثهب
           يزتب سحيب تييتبايتايتاىستياتس تيالياهل اهثايلثها هاقلمستل جحسينب سثبن

@@ -6,8 +6,9 @@ export default function Equipments() {
 
   return (
     <div
-      className="md:w-full w-fit max-w-[1400px] h-fit mb-10
-     grid gap-6 md:grid-rows-3 md:grid-cols-3 grid-cols-1 grid-rows-9"
+      className="md:w-full w-[90vw] max-w-[1400px] h-fit mb-10
+     grid gap-6 md:grid-rows-3 md:grid-cols-3 grid-cols-2 grid-rows-5"
+      id="our_equipments"
     >
       {equipments.map(() => (
         <EquipCard />

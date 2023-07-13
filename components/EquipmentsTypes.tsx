@@ -4,12 +4,12 @@ import EquipmentTypeCard from "./EquipmentTypeCard";
 export default function EquipmentsTypes() {
   const equipments = [{}, {}, {}, {}, {}, {}, {}, {}, {}];
     return (
-      <div className="md:w-full w-[70vw] max-w-[1400px] h-fit">
+      <div className="md:w-full w-[90vw] max-w-[1400px] h-fit">
         <div className="flex flex-col md:items-start items-center justify-center">
           <div className="text-amber-400 text-4xl ">المعدات</div>
           <div className="text-white text-2xl my-4">المعدات</div>
         </div>
-        <div className="grid gap-6 grid-rows-9 grid-cols-1 md:grid-rows-3 md:grid-cols-3">
+        <div className="grid gap-6 grid-rows-5 grid-cols-2 md:grid-rows-3 md:grid-cols-3">
           {equipments.map(() => (
             <EquipmentTypeCard />
           ))}

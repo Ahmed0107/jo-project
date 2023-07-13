@@ -9,7 +9,7 @@ export default function Navbar() {
   const [showMenuNav, setShowMenuNav] = useState<Boolean>(false);
 
   return (
-    <div className="max-w-[1400px] h-[60px] flex md:flex-row items-center justify-between">
+    <div className="max-w-[1600px] w-full h-[60px] fixed top-0 bg-black flex md:flex-row items-center justify-between z-40">
       <div className="mr-5 flex flex-row items-center justify-center z-50">
         <Image src="/logo.jpg" alt="" width={50} height={50} />
         <h1 className="text-2xl w-48 text-white mr-3">لؤلؤة الشرق</h1>
@@ -28,19 +28,33 @@ export default function Navbar() {
                showMenuNav ? "top-[60px]" : "top-[-480px]"
              }`}
       >
-        <span className="md:my-0 my-2 cursor-pointer">الرئيسية</span>
-        <span className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer">
+        <a className="md:my-0 my-2 cursor-pointer" href="#slide_show">
+          الرئيسية
+        </a>
+        <a
+          className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer"
+          href="#about_us"
+        >
           عنا
-        </span>
-        <span className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer">
+        </a>
+        <a
+          className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer"
+          href="#our_works"
+        >
           أعمالنا
-        </span>
-        <span className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer">
-          أعمالنا
-        </span>
-        <span className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer">
+        </a>
+        <a
+          className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer"
+          href="#our_equipments"
+        >
+          المعدات
+        </a>
+        <a
+          className="md:mr-10 md:my-0 my-2 text-amber-500 cursor-pointer"
+          href="#contact_us"
+        >
           تواصل معنا
-        </span>
+        </a>
       </div>
 
       {!showMenuNav ? (

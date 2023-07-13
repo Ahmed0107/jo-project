@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="max-w-[1400px] w-[90vw]">
+    <div className="max-w-[1400px] w-[90vw]" id="contact_us">
       <div className="flex justify-between items-start w-full h-fit my-0 mx-auto mb-10">
         <div className="w-[70%]">
           <h1 className="text-amber-500">dihgduhg</h1>

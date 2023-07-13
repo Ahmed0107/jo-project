@@ -36,9 +36,12 @@ export default function About() {
   ];
 
   return (
-    <div className="max-w-[1400px] w-[90vw] h-fit my-0 mx-auto mb-10">
+    <div
+      className="max-w-[1400px] w-[90vw] h-fit my-0 mx-auto mb-10"
+      id="about_us"
+    >
       {/* heading */}
-      <h1 className="text-amber-500">تعرف علينا أكثر</h1>
+      <h1 className="text-2xl mb-5 text-white">تعرف علينا أكثر</h1>
       {/* About As */}
       <div className="w-full grid gap-4 grid-cols-1 grid-rows-2  md:grid-cols-2 md:grid-rows-1 ">
         <div className="h-fit text-amber-500 md:my-5">
